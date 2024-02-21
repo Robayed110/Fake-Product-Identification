@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Fake Product Identification</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+        body {
+            background-image: url(photo/abs.jpg);
+            background-size: 100%;
+            background-position: 0px 0px;
+
+
+
+        }
+
+
+		.moto p {
+           
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-size: 26px;
+            
+         
+            position: relative;
+
+        }
+    </style>
+	</head>
+	<body>
+	<section class="ftco-section">
+		<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar" style="background-color: rgba(15, 64, 211, 0.4); position: fixed; top: 0; width: 100%;" id="ftco-navbar">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span> Menu
+				</button>
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<a href="index.html">
+						<label class="logo "style="font-size: 30px; color:white; font-family: Nova Square;"  >Fake Product Identification</label>
+					</a>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="index.html"style="color: white;font-size: 22px;" class="nav-link">Home</a></li>
+						  <li class="nav-item "><a href="http://localhost/emailAuth/Fake-Product-IdentificationProject/login.php"style="color: white;font-size: 22px;" class="nav-link">Manufacturer</a></li>
+						<li class="nav-item"><a href="http://localhost/emailAuth/Fake-Product-IdentificationProject/login.php"style="color: white;font-size: 22px;" class="nav-link">Seller</a></li>
+						  <li class="nav-item"><a href="consumer.html"style="color: white;font-size: 22px;" class="nav-link">Consumer</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+		<div class="moto" style="color: white; font-family:Nova Square  ;font-weight: 700;">
+			<p>Trust, Verify, Authenticate: Your Shield Against Fakes!!</p>
+			<p>Blockchain Technology</p>
+		</div>
+         
+	
+	<section>
+        <div class="container">
+            <h2 style="color: white; font-family:Nova Square  ;font-weight: 700;">Consumer Product History</h2>
+       
+              <div class="form-group">
+                <label for="consumerCode" style="color: white;">Consumer Code</label>
+                <input type="text" class="form-control" id="consumerCode" placeholder="Enter Consumer Code" name="consumerCode">
+              </div>
+              
+              <button type="submit" class="btn btn-warning btn-register" id="register">Get Products</button>
+          </div>
+    </section>
+
+
+	</section>
+    <section>
+        <div class="container">
+            <h2 style="color: white; font-family:Nova Square  ;font-weight: 700;">Products purchased by consumer</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th style="color: white;">Product SN</th>
+                        <th style="color: white;">Seller Code</th>
+                        <th style="color: white;">Manufacturer Code</th>
+                    </tr>
+                </thead>
+                <tbody id="logdata">
+
+                </tbody>
+            </table>
+            <center><p style="color: white;">Your address is <b id="add"></b></p></center>
+        </div>
+    </section>
+    
+	<footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4 style="color: white;">Contact Us</h4>
+                <p style="margin: auto;">Safe Product</p>
+                <p style="margin: auto;">Jatrabari,Dhaka-1200</p>
+                <p style="margin: auto;">Email: blockchain77@service.bd</p>
+                <p style="margin: auto;">Phone: +44 (0)123 456 7890</p>
+            </div>
+            <div class="footer-column">
+                <h4 style="color: white;">Quick Links</h4>
+                <ul>
+                <li style="margin: auto;"><a href="index.html">Home</a></li>
+                <li style="margin: auto;"><a href="manufacturer.html">Manufacturer</a></li>
+                <li style="margin: auto;"><a href="seller.html">Seller</a></li>
+                <li style="margin: auto;"><a href="consumer.html">Consumer</a></li>
+            
+                </ul>
+            </div>
+            
+        </div>
+        <p class="footer-bottom">© 2023 Safe Product All rights reserved.</p>
+    </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/web3.min.js"></script>
+  <script src="js/truffle-contract.js"></script>
+  <script src="js/consumerPurchaseHistory.js"></script>
+  </body>
+</html>
+
+
+
+

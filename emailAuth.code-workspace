@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../downloads/phpmailer_smtp/smtp"
+		}
+	],
+	"settings": {}
+}
